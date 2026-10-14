@@ -1,0 +1,109 @@
+.pilha-root {
+  background-color: rgba(20, 22, 28, 0.78);
+  border-radius: 14px;
+  padding: 14px 16px;
+  spacing: 6px;
+}
+
+.pilha-header {
+  spacing: 8px;
+  padding-bottom: 6px;
+}
+
+.pilha-title {
+  font-size: 13pt;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.pilha-count {
+  font-size: 9pt;
+  color: #9aa0aa;
+}
+
+.pilha-header-button {
+  font-size: 11pt;
+  color: #9aa0aa;
+  padding: 0 6px;
+  border-radius: 6px;
+}
+
+.pilha-header-button:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pilha-row {
+  spacing: 8px;
+  padding: 5px 6px;
+  border-radius: 8px;
+}
+
+.pilha-row:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.pilha-priority {
+  font-size: 8pt;
+  font-weight: bold;
+  padding: 1px 6px;
+  border-radius: 6px;
+  min-width: 44px;
+  text-align: center;
+}
+
+.pilha-priority-urgent { background-color: #d9434b; color: #ffffff; }
+.pilha-priority-high { background-color: #e0a526; color: #1b1b1b; }
+.pilha-priority-normal { background-color: #3d7fc4; color: #ffffff; }
+.pilha-priority-low { background-color: #50555e; color: #d0d0d0; }
+
+.pilha-item-body {
+  spacing: 3px;
+}
+
+.pilha-item-title {
+  font-size: 10pt;
+  color: #ececec;
+}
+
+.pilha-links {
+  spacing: 4px;
+}
+
+.pilha-link {
+  font-size: 8pt;
+  padding: 0 5px;
+  border-radius: 5px;
+  color: #c8c8c8;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.pilha-link:hover { background-color: rgba(255, 255, 255, 0.2); color: #ffffff; }
+.pilha-link-github_pr { color: #d4a6ff; }
+.pilha-link-clickup_task { color: #8fc3ff; }
+
+.pilha-done-button {
+  font-size: 11pt;
+  color: #6b717b;
+  padding: 0 4px;
+  border-radius: 6px;
+}
+
+.pilha-done-button:hover {
+  color: #5fd38d;
+  background-color: rgba(95, 211, 141, 0.12);
+}
+
+.pilha-empty, .pilha-error {
+  font-size: 10pt;
+  color: #9aa0aa;
+  padding: 6px 0;
+}
+
+.pilha-error { color: #ff8a8a; }
+
+.pilha-more {
+  font-size: 9pt;
+  color: #7c828c;
+  padding-top: 4px;
+}

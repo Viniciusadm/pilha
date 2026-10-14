@@ -1,0 +1,33 @@
+{
+  "command": {
+    "type": "entry",
+    "default": "",
+    "description": "Caminho do binário t (vazio = procurar no PATH e em ~/.cargo/bin)"
+  },
+  "refresh-interval": {
+    "type": "spinbutton",
+    "default": 20,
+    "min": 5,
+    "max": 600,
+    "step": 5,
+    "units": "segundos",
+    "description": "Intervalo de atualização"
+  },
+  "max-items": {
+    "type": "spinbutton",
+    "default": 12,
+    "min": 1,
+    "max": 50,
+    "step": 1,
+    "description": "Máximo de itens exibidos"
+  },
+  "width": {
+    "type": "spinbutton",
+    "default": 360,
+    "min": 200,
+    "max": 1000,
+    "step": 10,
+    "units": "pixels",
+    "description": "Largura"
+  }
+}

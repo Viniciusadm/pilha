@@ -1,0 +1,8 @@
+{
+  "uuid": "pilha@vinicius",
+  "name": "Pilha",
+  "description": "Lista de todos da pilha (t ls)",
+  "icon": "view-list-symbolic",
+  "prevent-decorations": true,
+  "max-instances": 1
+}
